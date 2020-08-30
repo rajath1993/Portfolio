@@ -1,0 +1,110 @@
+{
+  "main": {
+    "name":"Rajath Anand",
+    "occupation":"Computer Science master's student",
+    "description":"Actively looking for full time opportunities as a full-stack developer",
+    "image":"profilepic.jpeg",
+    "bio":"Hello! I'm Rajath, a passionate full-stack developer in Charlotte, NC. I enjoy building things that connect to the internet whether that be websites, applications or anything in between.",
+    "contactmessage":"LET'S GET IN TOUCH",
+    "email": "anand.rajath@gmail.com",
+    "phone": "704-905-0019",
+    "address":{
+      "street":"University Terrace Drive Apt C",
+      "city":"Charlotte",
+      "state":"North Carolina",
+      "zip": "28262"
+    },
+    "website": "",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://www.facebook.com/rajath.anand",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"http://linkedin.com/in/rajathanand",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/rajath1993",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"University of North Carolina at Charlotte",
+        "degree":"Master's in Computer Science",
+        "graduated":"December 2020",
+        "description":"I got an opportunity to work on projects using different technologies. The best one was the Medicine Management System (Technologies used: React, Spring boot, MySQL)."
+      },
+      {
+        "school":"B.N.M Institute of Technology",
+        "degree":"Bachelor of Engineering",
+        "graduated":"June 2015",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"TracFlo Inc.",
+        "title":"Full Stack Developer Intern",
+        "years":"July 2020 - September 2020",
+        "description":"Developed the TracFlo application version 2.0, mostly worked on front end and few parts of API development."
+      },
+      {
+        "company":"Cognizant Technology Solutions",
+        "title":"Programmer Analyst",
+        "years":"January 2016 - June 2018",
+        "description":"Developed full-stack applications..."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Java",
+        "level":"70%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"60%"
+      },
+      {
+        "name":"Spring boot",
+        "level":"60%"
+      },
+      {
+        "name":"NodeJS",
+        "level":"60%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"Redux-thunk",
+        "level":"40%"
+      },
+      {
+        "name":"HTML5",
+        "level":"70%"
+      },
+      {
+        "name":"Material-UI",
+        "level":"40%"
+      },
+      {
+        "name":"SQL",
+        "level":"70%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"60%"
+      }
+    ]
+  }
+}

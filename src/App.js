@@ -44,7 +44,7 @@ const App = ({Component,pageProps}) => {
         <Resume data={state.resumeData.resume}/>
         <Portfolio data={state.resumeData.portfolio}/>
         
-          <Contact {...pageProps}/>
+          <Contact data={state.resumeData.main}/>
                 
         <Footer data={state.resumeData.main}/>
         </StaticKitProvider>

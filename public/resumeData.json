@@ -15,7 +15,7 @@
       "zip": "28262"
     },
     "website": "",
-    "resumedownload":"",
+    "resumedownload":"https://drive.google.com/file/d/1BOodN6QJJ88kcukuZzdk-3xprwftckRL/view?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -41,7 +41,7 @@
         "school":"University of North Carolina at Charlotte",
         "degree":"Master's in Computer Science",
         "graduated":"December 2020",
-        "description":"I got an opportunity to work on projects using different technologies. The best one was the Medicine Management System (Technologies used: React, Spring boot, MySQL)."
+        "description":"I got an opportunity to work on lot of projects using different technologies. The one which I like the most was the Medicine Management System (Technologies used: React, Spring boot, MySQL)."
       },
       {
         "school":"B.N.M Institute of Technology",
@@ -55,13 +55,15 @@
         "company":"TracFlo Inc.",
         "title":"Full Stack Developer Intern",
         "years":"July 2020 - September 2020",
-        "description":"Developed the TracFlo application version 2.0, mostly worked on front end and few parts of API development."
+        "description":"Worked with a wonderful team of higly potential peers under an experienced CTO. I explored a lot of front end development, handling github version control, developing API's.",
+        "technologyUsed":"ReactJS, NodeJS, TypeScript, PostgreSQL, knex"
       },
       {
         "company":"Cognizant Technology Solutions",
         "title":"Programmer Analyst",
         "years":"January 2016 - June 2018",
-        "description":"Developed full-stack applications..."
+        "description":"Developed full-stack applications, interacted with clients, followed Agile methodology extensively, helped new joinees get comfortable with the work environment.",
+        "technologyUsed":"Java, Spring boot, Informix Database, IBM Websphere, Load Balancing"
       }
     ],
     "skills":[

@@ -9,7 +9,7 @@ import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 import {StaticKitProvider} from '@statickit/react';
 
-const App = () => {
+const App = ({Component,pageProps}) => {
 
   const [state,setState] = useState({
     foo:'bar',
@@ -38,14 +38,16 @@ const App = () => {
   
   return (
     <div className="App">
+      <StaticKitProvider site="9b1145603858">
         <Header data={state.resumeData.main}/>
         <About data={state.resumeData.main}/>
         <Resume data={state.resumeData.resume}/>
         <Portfolio data={state.resumeData.portfolio}/>
-        <StaticKitProvider site="{}">
-          <Contact data={state.resumeData.main}/>
-        </StaticKitProvider>        
+        
+          <Contact {...pageProps}/>
+                
         <Footer data={state.resumeData.main}/>
+        </StaticKitProvider>
     </div>
     );
 }

@@ -13,6 +13,8 @@ const Contact = ({data}) => {
       var message = data.contactmessage;
     }
 
+    console.log("data: ",state);
+
     return (
       <section id="contact">
 
@@ -26,7 +28,7 @@ const Contact = ({data}) => {
 
             <div className="ten columns">
 
-                  <p className="lead">{message}</p>
+                  <p className="lead">LET'S GET IN TOUCH</p>
 
             </div>
 

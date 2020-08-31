@@ -10,7 +10,7 @@ const Contact = ({data}) => {
       var zip = data.address.zip;
       var phone= data.phone;
       var email = data.email;
-      var message = data.contactmessage;
+      //var message = data.contactmessage;
     }
 
     console.log("data: ",state);

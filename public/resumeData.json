@@ -108,5 +108,33 @@
         "level":"60%"
       }
     ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Ping pong",
+        "category":"A game that I developed out of curiosity",
+        "image":"pingpong.png",
+        "url":"https://pingponggreen.netlify.app/"
+      },
+      {
+        "title":"Medicine management system",
+        "category":"(offline now) Application collaborates doctors,pharmacies and patients",
+        "image":"medicine-management.png",
+        "url":"https://github.com/rajath1993/SSDI_project_Medicine_Management"
+      },
+      {
+        "title":"Instagram",
+        "category":"Designed instagram clone with react & firebase",
+        "image":"instagram.png",
+        "url":"https://github.com/rajath1993/InstagramClone/tree/features/firstClone"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.png",
+        "url":"https://rajathanand.netlify.app"
+      }
+    ]
   }
 }

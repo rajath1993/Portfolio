@@ -5,7 +5,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
-import Contact from './Components/Contact';
+// import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 import {StaticKitProvider} from '@statickit/react';
 
@@ -44,7 +44,7 @@ const App = ({Component,pageProps}) => {
         <Resume data={state.resumeData.resume}/>
         <Portfolio data={state.resumeData.portfolio}/>
         
-          <Contact data={state.resumeData.main}/>
+          {/* <Contact data={state.resumeData.main}/> */}
                 
         <Footer data={state.resumeData.main}/>
         </StaticKitProvider>

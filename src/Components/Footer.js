@@ -12,6 +12,7 @@ const Footer = ({data}) => {
       <footer>
          <div className="row">
             <div className="twelve columns">
+            <p className="lead">LET'S GET IN TOUCH</p>
                <ul className="social-links">
                   {networks}
                </ul>
